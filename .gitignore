@@ -1,0 +1,6 @@
+*.ipynb
+text.txt
+*abstract.txt
+*.log
+__pycache__
+.idea

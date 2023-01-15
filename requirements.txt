@@ -1,0 +1,4 @@
+uuid~=1.30
+nltk~=3.8.1
+Flask~=2.2.2
+Flask-Cors~=3.0.10

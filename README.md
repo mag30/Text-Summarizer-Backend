@@ -37,14 +37,23 @@ python app.py
 ### Описание endpoints
 
 *Description:*  Summarize  Text
+
 *Tags:*         Summarize
+
 *Accept:*       json
+
 *Produce:*      json
+
 *Param:*        language_iso path string true "Language ISO"
+
 *Param:* payload json true "User request"
+
 *Success:*     200  {object}  ResponseOK "OK"
+
 *Failure:*      400  {object}  ResponseFailure "Bad request (client fault)"
+
 *Failure:*      500  {object}  ResponseFailure "Internal error (server fault)"
+
 *Router:*       /summarize/<string:language_iso> [post]
 
 
